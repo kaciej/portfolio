@@ -26,16 +26,16 @@ class MyNavbar extends Component {
             </NavItem>
 
             <NavItem>
-              <HashLink to="/#connection">
+              <HashLink to="/#connect">
                 <li className="nav-links">connect</li>
               </HashLink>
             </NavItem>
 
-               <NavItem>
+               {/*<NavItem>
               <HashLink to="/">
                 <li className="nav-links">home</li>
               </HashLink>
-            </NavItem>
+            </NavItem>*/}
           
           </Nav>
         </Navbar.Collapse>

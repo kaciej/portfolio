@@ -4,12 +4,15 @@
 .nav-custom{
     border: none;
     background-color: transparent;
+    position: relative;
+    z-index: 2;
 }
 
 @media (max-width: 768px) {
   .navbar-nav li {
     text-align: right;
     z-index: 1;
+    background-color: black;
   }
 }
 
@@ -17,6 +20,7 @@
   .navbar .navbar-collapse  {
     text-align: right;
     z-index: 1;
+    background-color: black;
   }
 }
 
@@ -30,9 +34,21 @@
 ******HEADER****
 ****************/
 
+@media (max-width: 1233px) {
+  .hello {
+    display: none;
+  }
+}
+
+@media (max-width: 1233px) {
+  .im {
+    display: none;
+  }
+}
+
 .name-header{
     font-family: 'Roboto', sans-serif;
-    padding-top: 10vh;
+    padding-top: 35vh;
     font-size: 40px;
 }
 
@@ -53,12 +69,18 @@ h4{
 }
 
 .connect-header{
-    margin-top: 20vh;
+    margin-top: 35vh;
     transition:.2s;
     display:inline-block;
     padding-bottom:1vh;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
+}
+
+@media (max-width: 1233px){
+    .connect-header{
+        display: none;
+    }
 }
 
 .connect-header:hover{
@@ -76,14 +98,97 @@ h4{
 }
 
 .hello{
-    padding-top: 200px;
+    margin-top: 200px;
     font-size: 50px;
 }
 
 .im{
-    font-size: 30px;
-    padding-top: 3vh;
+    font-size: 20px;
+    padding-top: 39vh;
+    padding-right: none;
+    float: right;
 }
+
+/***************
+****PROJECTS****
+****************/
+
+.projects-title{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.imgs {
+    width: 49%;
+    min-height: 35vh;
+    max-height: 35vh;
+    display: inline-block;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+}
+
+@media (max-width: 1233px) {
+  .imgs {
+    width: 100%;
+  }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.imgs:hover .overlay {
+    opacity: 1;
+}
+
+.hover-text {
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1233px) {
+  p {
+    display: none;
+  }
+}
+
+li {
+    list-style: none;
+}
+
+.tech{
+    float: left;
+}
+
+.code-btn{
+    background-color: white;
+    color: black;
+}
+
+.unschool-site{
+    font-size: 12px;
+    color: white !important;
+    display: block;
+    margin-bottom: 3px;
+}
+
 
 /***************
 ******SKILLS****
@@ -97,13 +202,13 @@ h4{
 .skills{
     list-style: none;
     font-family: 'Roboto', sans-serif;
-    color: #95989A;
     font-size: 1.5em;
+    line-height: 2;
 }
 
 .skills-title{
     margin-bottom: 10vh;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 
@@ -128,11 +233,19 @@ h4{
     border: none;
     background-color: transparent;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .skew{
     font-size: 25px;
     color: black;
+    transition:.2s;
+}
+
+.skew:hover{
+    -webkit-transform: skew(-10deg);
+    transform: skew(-10deg);
+    font-style: italic;
 }
 
 
