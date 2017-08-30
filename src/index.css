@@ -1,0 +1,162 @@
+/***************
+******NAVBAR****
+****************/
+.nav-custom{
+    border: none;
+    background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav li {
+    text-align: right;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .navbar-collapse  {
+    text-align: right;
+    z-index: 1;
+  }
+}
+
+.nav-links{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+}
+
+/***************
+******HEADER****
+****************/
+
+.name-header{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10vh;
+    font-size: 40px;
+}
+
+h4{
+   font-family: 'Lora', serif;
+   font-style: italic;
+   font-size: 20px;
+}
+
+.header{
+    background-color: black;
+    height: 90vh;
+    margin-top: -100px;
+}
+
+.white{
+    color: white;
+}
+
+.connect-header{
+    margin-top: 20vh;
+    transition:.2s;
+    display:inline-block;
+    padding-bottom:1vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.connect-header:hover{
+    color:#4AB6C4;
+}
+
+
+.angle-right{
+    display:inline-block;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    transition:.2s;
+    margin-left: 10px;
+    color:#4AB6C4;
+}
+
+.hello{
+    padding-top: 200px;
+    font-size: 50px;
+}
+
+.im{
+    font-size: 30px;
+    padding-top: 3vh;
+}
+
+/***************
+******SKILLS****
+****************/
+
+.skill-space{
+    margin-top:10vh;
+    margin-bottom:10vh;
+}
+
+.skills{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: #95989A;
+    font-size: 1.5em;
+}
+
+.skills-title{
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+}
+
+
+/***************
+******FORM******
+****************/
+
+.message{
+    margin-top: 15px;
+}
+
+.connect-form{
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+
+.form-control{
+    font-family: 'Roboto', sans-serif;
+}
+
+.connect-btn{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.skew{
+    font-size: 25px;
+    color: black;
+}
+
+
+/***************
+******FOOTER****
+****************/
+
+.footer{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-icons{
+    padding-left: .5em;
+    padding-right: .5em;
+    color: white;
+    transition: .5s;
+}
+
+.footer-icons:hover{
+    transform: scale(1.2);
+    opacity: 0.5;
+    text-decoration-line: none !important;
+    text-decoration: none !important;
+}
+
