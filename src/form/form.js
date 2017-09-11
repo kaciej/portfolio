@@ -8,12 +8,13 @@ class Form extends Component {
                 <form action="https://formspree.io/kacieaken@gmail.com" method="POST">
                    
                     <div className="form-group">
-                        <input type="text" 
+                        <input type="text"
                             className="form-control input-lg"
                             name="Name"
                             autoComplete="off"
                             id="Name"
-                            placeholder="Name"/>
+                            placeholder="Name"
+                            required/>
                     </div>
 
                     <div>
@@ -22,7 +23,8 @@ class Form extends Component {
                             name="Email"
                             autoComplete="off"
                             id="Email"
-                            placeholder="Email"/>
+                            placeholder="Email"
+                            required/>
                     </div>
 
                     <div className="form-group message">
@@ -30,7 +32,8 @@ class Form extends Component {
                             rows="3"
                             name="Message"
                             placeholder="Message"
-                            id="Message"/>
+                            id="Message"
+                            required/>
                     </div>
 
                     <a className="pull-right skew" href="https://github.com/kaciej">

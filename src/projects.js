@@ -53,12 +53,13 @@ class Projects extends Component {
                         </div>
 
                         <div className="imgs wow fadeIn" data-wow-offset="70" data-wow-delay="1s" data-wow-iteration="1"
-                            style={{backgroundImage: 'url("images/robin.png")'}}>
+                            style={{backgroundImage: 'url("images/southern-flare.png")'}}>
                             <div className="overlay">
                                 <div className="robin hover-text">
-                                    <h3>Robin Tribute</h3>
-                                    <p>This is my tribute to Robin Williams. Focused React and Bootstrap for design.</p>
-                                    <a className="code-btn" href="https://github.com/Coo-coo-kachoo/Clean-Air-SLC"><button className="btn code-btn">code here</button></a> 
+                                    <h3>Souther Flare Lash</h3>
+                                    <p>(under construction)</p>
+                                    <p>This is my current project, building a site for a small buisness owner.</p>
+                                    <a className="code-btn" href="https://github.com/ElloraDevelopment/southern-flare-lash2/branches"><button className="btn code-btn">code here</button></a> 
                                 </div>
                             </div>
                         </div>
