@@ -24,7 +24,7 @@ class Projects extends Component {
                                 <div className="chello hover-text">
                                     <h3>Chello Farms</h3>
                                     <p>A website built for a local farm with the focus on design and UX.</p>
-                                    <a href="https://github.com/kaciej/chello-farms"><button className="btn code-btn">code here</button></a> 
+                                    <a target="_blank" href="https://github.com/kaciej/chello-farms"><button className="btn code-btn">code here</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ class Projects extends Component {
                                 <div className="clean-air hover-text">
                                     <h3>Clean Air</h3>
                                     <p>Site built to educate about air quality, focused on user authenication and API's.</p>
-                                    <a className="code-btn" href="https://github.com/Coo-coo-kachoo/Clean-Air-SLC"><button className="btn code-btn">code here</button></a> 
+                                    <a target="_blank" className="code-btn" href="https://github.com/Coo-coo-kachoo/Clean-Air-SLC"><button className="btn code-btn">code here</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -46,8 +46,8 @@ class Projects extends Component {
                                 <div className="unschooling hover-text">
                                     <h3>Unschooling</h3>
                                     <p>A site where parents who homeschool can collaborate. Focused on backend with Express.</p>
-                                    <a className="unschool-site" href="http://natureschoollife.com/#/">http://natureschoollife.com/#/</a>
-                                    <a className="code-btn" href="https://github.com/kaciej/Unschooling"><button className="btn code-btn">code here</button></a> 
+                                    <a target="_blank" className="unschool-site" href="http://natureschoollife.com/#/">http://natureschoollife.com/#/</a>
+                                    <a target="_blank" className="code-btn" href="https://github.com/kaciej/Unschooling"><button className="btn code-btn">code here</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -57,9 +57,9 @@ class Projects extends Component {
                             <div className="overlay">
                                 <div className="robin hover-text">
                                     <h3>Souther Flare Lash</h3>
-                                    <p>(under construction)</p>
                                     <p>This is my current project, building a site for a small buisness owner.</p>
-                                    <a className="code-btn" href="https://github.com/ElloraDevelopment/southern-flare-lash2/branches"><button className="btn code-btn">code here</button></a> 
+                                    <a target="_blank" className="unschool-site" href="https://www.southernflarelash.com/#/">https://www.southernflarelash.com/#/</a>
+                                    <a target="_blank" className="code-btn" href="https://github.com/ElloraDevelopment/southern-flare-lash2/branches"><button className="btn code-btn">code here</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -69,5 +69,7 @@ class Projects extends Component {
         );
     }
 }
+
+
 
 export default Projects;

@@ -20,7 +20,7 @@ class Header extends Component {
 
                 <div className="col-md-3 col-sm-12 col-sm-offset-0">
                     <h1 className="white name-header wow fadeInRight" data-wow-offset="90"  data-wow-iteration="1">kacie jacobson</h1>
-                    <h4 className="white my-desc wow fadeInLeft" data-wow-offset="90" data-wow-iteration="1">developer, wonderer</h4>
+                    <h4 className="white my-desc wow fadeInLeft" data-wow-offset="90" data-wow-iteration="1">qa engineer, wonderer</h4>
                 </div>
                 <div className="col-md-2 col-md-offset-0 col-sm-12 col-sm-offset-0">
                 <a className="white connect-header skew" href="#connect">
